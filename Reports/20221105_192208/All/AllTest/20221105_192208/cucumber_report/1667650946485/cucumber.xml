@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="49.607664">
+<testcase classname="Login" name="Test login with valid user" time="25.111508">
+<system-out><![CDATA[Given User click login link.................................................passed
+When User input with valid frizzi12@gmail.com email.........................passed
+And User input with valid testing123 password...............................passed
+And User click Login button.................................................passed
+Then User is Navigate to home page..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Test login with invalid user" time="24.496156">
+<system-out><![CDATA[Given User click login link.................................................passed
+When User input with invalid manusia email..................................passed
+And User input with invalid 12345 password..................................passed
+And User click Login buttom.................................................passed
+Then User is Navigate to dasboard page......................................passed
+]]></system-out>
+</testcase>
+</testsuite>

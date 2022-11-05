@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AllTest" time="113.021" tests="1" failures="0" errors="0">
+   <testsuite name="AllTest" tests="1" failures="0" errors="0" time="113.021" skipped="0" timestamp="2022-11-05 19:22:25" hostname="Asus - DESKTOP-SRK5D1D" id="Test Suites/All/AllTest">
+      <properties>
+         <property name="deviceName" value="Xiaomi Redmi Note 9 Pro (Android 10)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\SEMESTER 7\\MBKM\\MiniProyek\\CICD\\MiniProyekMobile\\Reports\\20221105_192208\\All\\AllTest\\20221105_192208"/>
+         <property name="logFiles" value="E:\\SEMESTER 7\\MBKM\\MiniProyek\\CICD\\MiniProyekMobile\\Reports\\20221105_192208\\All\\AllTest\\20221105_192208\\appium.log, E:\\SEMESTER 7\\MBKM\\MiniProyek\\CICD\\MiniProyekMobile\\Reports\\20221105_192208\\All\\AllTest\\20221105_192208\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Asus - DESKTOP-SRK5D1D"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.4.1.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="Redmi Note 9 Pro"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="9821f742"/>
+         <property name="deviceName" value="Xiaomi Redmi Note 9 Pro (Android 10)"/>
+         <property name="deviceOSVersion" value="10"/>
+      </properties>
+      <testcase name="Test Cases/Run Feature File" time="112.811" classname="Test Cases/Run Feature File" status="PASSED">
+         <system-out><![CDATA[2022-11-05 19:22:26 - [TEST_CASE][PASSED] - Test Cases/Run Feature File: Test Cases/Run Feature File
+
+2022-11-05 19:22:26 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Login/Login.feature"): Feature file: 'Include/features/Login/Login.feature' was passed
+
+2022-11-05 19:22:26 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Login/Login.feature' and extract report to folder: 'E:\SEMESTER 7\MBKM\MiniProyek\CICD\MiniProyekMobile\Reports\20221105_192208\All\AllTest\20221105_192208/cucumber_report/1667650946485'...
+
+2022-11-05 19:22:27 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Test login with valid user: SCENARIO Test login with valid user
+
+2022-11-05 19:22:27 - [TEST_STEP][PASSED] - User click login link: User click login link
+
+2022-11-05 19:22:27 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-11-05 19:22:28 - [MESSAGE][INFO] - Appium server started on port 55,856
+
+2022-11-05 19:22:43 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Asus\Downloads\Telegram Desktop\app-release.apk'
+
+2022-11-05 19:22:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 19:22:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.Button'
+
+2022-11-05 19:22:44 - [MESSAGE][PASSED] - User click login link
+
+2022-11-05 19:22:44 - [TEST_STEP][PASSED] - User input with valid frizzi12@gmail.com email: User input with valid frizzi12@gmail.com email
+
+2022-11-05 19:22:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 19:22:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.EditText - Email'
+
+2022-11-05 19:22:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 19:22:46 - [MESSAGE][PASSED] - Text 'frizzi12@gmail.com' has been set to element 'Object Repository/Login/android.widget.EditText - Email (1)'
+
+2022-11-05 19:22:46 - [MESSAGE][PASSED] - User input with valid frizzi12@gmail.com email
+
+2022-11-05 19:22:46 - [TEST_STEP][PASSED] - User input with valid testing123 password: User input with valid testing123 password
+
+2022-11-05 19:22:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 19:22:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.EditText - Password'
+
+2022-11-05 19:22:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 19:22:48 - [MESSAGE][PASSED] - Text 'testing123' has been set to element 'Object Repository/Login/android.widget.EditText - Password (1)'
+
+2022-11-05 19:22:48 - [MESSAGE][PASSED] - User input with valid testing123 password
+
+2022-11-05 19:22:48 - [TEST_STEP][PASSED] - User click Login button: User click Login button
+
+2022-11-05 19:22:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 19:22:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.Button (1)'
+
+2022-11-05 19:22:49 - [MESSAGE][PASSED] - User click Login button
+
+2022-11-05 19:22:49 - [TEST_STEP][PASSED] - User is Navigate to home page: User is Navigate to home page
+
+2022-11-05 19:22:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 19:22:50 - [MESSAGE][PASSED] - Element 'Object Repository/Login/android.widget.Button (2)' is present
+
+2022-11-05 19:22:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 19:22:50 - [MESSAGE][PASSED] - Element 'Object Repository/Login/android.widget.Button (2)' is visible
+
+2022-11-05 19:22:51 - [MESSAGE][PASSED] - Close app successfully
+
+2022-11-05 19:22:51 - [MESSAGE][PASSED] - User is Navigate to home page
+
+2022-11-05 19:22:51 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Test login with invalid user: SCENARIO Test login with invalid user
+
+2022-11-05 19:22:51 - [TEST_STEP][PASSED] - User click login link: User click login link
+
+2022-11-05 19:22:52 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-11-05 19:22:53 - [MESSAGE][INFO] - Appium server started on port 55,973
+
+2022-11-05 19:23:06 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Asus\Downloads\Telegram Desktop\app-release.apk'
+
+2022-11-05 19:23:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 19:23:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.Button'
+
+2022-11-05 19:23:08 - [MESSAGE][PASSED] - User click login link
+
+2022-11-05 19:23:08 - [TEST_STEP][PASSED] - User input with invalid manusia email: User input with invalid manusia email
+
+2022-11-05 19:23:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 19:23:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.EditText - Email'
+
+2022-11-05 19:23:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 19:23:10 - [MESSAGE][PASSED] - Text 'frizzi12@gmail' has been set to element 'Object Repository/Login/android.widget.EditText - Email (1)'
+
+2022-11-05 19:23:10 - [MESSAGE][PASSED] - User input with invalid manusia email
+
+2022-11-05 19:23:10 - [TEST_STEP][PASSED] - User input with invalid 12345 password: User input with invalid 12345 password
+
+2022-11-05 19:23:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 19:23:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.EditText - Password'
+
+2022-11-05 19:23:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 19:23:12 - [MESSAGE][PASSED] - Text '123456' has been set to element 'Object Repository/Login/android.widget.EditText - Password (1)'
+
+2022-11-05 19:23:12 - [MESSAGE][PASSED] - User input with invalid 12345 password
+
+2022-11-05 19:23:12 - [TEST_STEP][PASSED] - User click Login buttom: User click Login buttom
+
+2022-11-05 19:23:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 19:23:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.Button (1)'
+
+2022-11-05 19:23:13 - [MESSAGE][PASSED] - User click Login buttom
+
+2022-11-05 19:23:13 - [TEST_STEP][PASSED] - User is Navigate to dasboard page: User is Navigate to dasboard page
+
+2022-11-05 19:23:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 19:23:14 - [MESSAGE][PASSED] - Element 'Object Repository/invalidLogin/android.widget.Button (1)' is visible
+
+2022-11-05 19:23:16 - [MESSAGE][PASSED] - Close app successfully
+
+2022-11-05 19:23:16 - [MESSAGE][PASSED] - User is Navigate to dasboard page
+
+2022-11-05 19:23:16 - [MESSAGE][PASSED] - Feature file: 'Include/features/Login/Login.feature' was passed
+
+2022-11-05 19:23:16 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Register/Register.feature"): Feature file: 'Include/features/Register/Register.feature' was passed
+
+2022-11-05 19:23:16 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Register/Register.feature' and extract report to folder: 'E:\SEMESTER 7\MBKM\MiniProyek\CICD\MiniProyekMobile\Reports\20221105_192208\All\AllTest\20221105_192208/cucumber_report/1667650996508'...
+
+2022-11-05 19:23:16 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Test Register with valid user: SCENARIO Test Register with valid user
+
+2022-11-05 19:23:16 - [TEST_STEP][PASSED] - User navigates to register page: User navigates to register page
+
+2022-11-05 19:23:16 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-11-05 19:23:17 - [MESSAGE][INFO] - Appium server started on port 56,094
+
+2022-11-05 19:23:32 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Asus\Downloads\Telegram Desktop\app-release.apk'
+
+2022-11-05 19:23:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 19:23:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.Button'
+
+2022-11-05 19:23:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 19:23:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.Button (1)'
+
+2022-11-05 19:23:34 - [MESSAGE][PASSED] - User navigates to register page
+
+2022-11-05 19:23:34 - [TEST_STEP][PASSED] - User input valid Bagus Cipta fullname: User input valid Bagus Cipta fullname
+
+2022-11-05 19:23:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 19:23:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.EditText - Alex Under, Fullname'
+
+2022-11-05 19:23:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 19:23:37 - [MESSAGE][PASSED] - Text 'Bagus Cipta' has been set to element 'Object Repository/Register/android.widget.EditText - Alex Under, Fullname (1)'
+
+2022-11-05 19:23:37 - [MESSAGE][PASSED] - User input valid Bagus Cipta fullname
+
+2022-11-05 19:23:37 - [TEST_STEP][PASSED] - User input email bagus13@gmail.com: User input email bagus13@gmail.com
+
+2022-11-05 19:23:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 19:23:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.EditText - alexemail.com, Email'
+
+2022-11-05 19:23:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 19:23:40 - [MESSAGE][PASSED] - Text 'bagus13@gmail.com' has been set to element 'Object Repository/Register/android.widget.EditText - alexemail.com, Email (1)'
+
+2022-11-05 19:23:40 - [MESSAGE][PASSED] - User input email bagus13@gmail.com
+
+2022-11-05 19:23:40 - [TEST_STEP][PASSED] - User enter password bagus124: User enter password bagus124
+
+2022-11-05 19:23:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 19:23:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.EditText - 123123123, Password'
+
+2022-11-05 19:23:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 19:23:44 - [MESSAGE][PASSED] - Text 'bagus124' has been set to element 'Object Repository/Register/android.widget.EditText - 123123123, Password (1)'
+
+2022-11-05 19:23:44 - [MESSAGE][PASSED] - User enter password bagus124
+
+2022-11-05 19:23:44 - [TEST_STEP][PASSED] - Click on Login button and navigate to dasb page: Click on Login button and navigate to dasb page
+
+2022-11-05 19:23:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 19:23:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.Button (2)'
+
+2022-11-05 19:23:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 19:23:47 - [MESSAGE][PASSED] - Element 'Object Repository/Register/android.widget.Button (2)' is visible
+
+2022-11-05 19:23:48 - [MESSAGE][PASSED] - Close app successfully
+
+2022-11-05 19:23:48 - [MESSAGE][PASSED] - Click on Login button and navigate to dasb page
+
+2022-11-05 19:23:48 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Test Register with invalid user: SCENARIO Test Register with invalid user
+
+2022-11-05 19:23:48 - [TEST_STEP][PASSED] - User navigates to register page: User navigates to register page
+
+2022-11-05 19:23:48 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-11-05 19:23:49 - [MESSAGE][INFO] - Appium server started on port 56,212
+
+2022-11-05 19:24:03 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Asus\Downloads\Telegram Desktop\app-release.apk'
+
+2022-11-05 19:24:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 19:24:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.Button'
+
+2022-11-05 19:24:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 19:24:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.Button (1)'
+
+2022-11-05 19:24:06 - [MESSAGE][PASSED] - User navigates to register page
+
+2022-11-05 19:24:06 - [TEST_STEP][PASSED] - User enter valid Bagus M fullname: User enter valid Bagus M fullname
+
+2022-11-05 19:24:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 19:24:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.EditText - Alex Under, Fullname'
+
+2022-11-05 19:24:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 19:24:09 - [MESSAGE][PASSED] - Text 'Bagus M' has been set to element 'Object Repository/Register/android.widget.EditText - Alex Under, Fullname (1)'
+
+2022-11-05 19:24:09 - [MESSAGE][PASSED] - User enter valid Bagus M fullname
+
+2022-11-05 19:24:09 - [TEST_STEP][PASSED] - User enter invalid email (): User enter invalid email ()
+
+2022-11-05 19:24:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 19:24:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.EditText - alexemail.com, Email'
+
+2022-11-05 19:24:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 19:24:12 - [MESSAGE][PASSED] - Text '()' has been set to element 'Object Repository/Register/android.widget.EditText - alexemail.com, Email (1)'
+
+2022-11-05 19:24:12 - [MESSAGE][PASSED] - User enter invalid email ()
+
+2022-11-05 19:24:12 - [TEST_STEP][PASSED] - User input password bagus17: User input password bagus17
+
+2022-11-05 19:24:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 19:24:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.EditText - 123123123, Password'
+
+2022-11-05 19:24:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 19:24:15 - [MESSAGE][PASSED] - Text 'bagus17' has been set to element 'Object Repository/Register/android.widget.EditText - 123123123, Password (1)'
+
+2022-11-05 19:24:15 - [MESSAGE][PASSED] - User input password bagus17
+
+2022-11-05 19:24:15 - [TEST_STEP][PASSED] - Click Login button and navigate to dasb page: Click Login button and navigate to dasb page
+
+2022-11-05 19:24:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 19:24:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.Button (2)'
+
+2022-11-05 19:24:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 19:24:17 - [MESSAGE][PASSED] - Element 'Object Repository/Register/android.widget.Button (2)' is visible
+
+2022-11-05 19:24:18 - [MESSAGE][PASSED] - Close app successfully
+
+2022-11-05 19:24:18 - [MESSAGE][PASSED] - Click Login button and navigate to dasb page
+
+2022-11-05 19:24:18 - [MESSAGE][PASSED] - Feature file: 'Include/features/Register/Register.feature' was passed
+
+2022-11-05 19:24:18 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Add Item/addItemWithoutLogin.feature"): Feature file: 'Include/features/Add Item/addItemWithoutLogin.feature' was passed
+
+2022-11-05 19:24:18 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Add Item/addItemWithoutLogin.feature' and extract report to folder: 'E:\SEMESTER 7\MBKM\MiniProyek\CICD\MiniProyekMobile\Reports\20221105_192208\All\AllTest\20221105_192208/cucumber_report/1667651058941'...
+
+2022-11-05 19:24:18 - [MESSAGE][PASSED] - Feature file: 'Include/features/Add Item/addItemWithoutLogin.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-11-05 19:22:25 - [TEST_SUITE][PASSED] - AllTest: Test Cases/Run Feature File]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

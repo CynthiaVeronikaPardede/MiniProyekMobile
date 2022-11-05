@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+AllTest,,,,2022-11-05 19:22:25,2022-11-05 19:24:18,1m - 53.021s,PASSED
+,,,,,,,
+Test Cases/Run Feature File,,,,2022-11-05 19:22:26,2022-11-05 19:24:18,1m - 52.811s,PASSED
+"runFeatureFile(""Include/features/Login/Login.feature"")",,,,2022-11-05 19:22:26,2022-11-05 19:23:16,50.059s,PASSED
+"runFeatureFile(""Include/features/Register/Register.feature"")",,,,2022-11-05 19:23:16,2022-11-05 19:24:18,1m - 2.433s,PASSED
+"runFeatureFile(""Include/features/Add Item/addItemWithoutLogin.feature"")",,,,2022-11-05 19:24:18,2022-11-05 19:24:18,0.056s,PASSED

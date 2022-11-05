@@ -1,0 +1,252 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "ad71474d-ba7f-4ab7-93a3-7e8e06ce99f2",
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 17935289800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User navigates to register page",
+            "match": {
+              "location": "register.userClickRegister()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "ccd14638-9a7b-4411-ab66-9a1867731b1f"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "ad71474d-ba7f-4ab7-93a3-7e8e06ce99f2",
+        "line": 17,
+        "name": "Test Register with valid user",
+        "description": "",
+        "id": "register;test-register-with-valid-user;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2648587700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User input valid Bagus Cipta fullname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bagus Cipta",
+                  "offset": 17
+                }
+              ],
+              "location": "register.UserInputValidFullname(String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "24337bbb-e218-4fdc-b34e-a7750babf35f"
+          },
+          {
+            "result": {
+              "duration": 3223720800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User input email bagus13@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "bagus13@gmail.com",
+                  "offset": 17
+                }
+              ],
+              "location": "register.UserInputValidEmail(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "e218727f-0b86-4cb4-b2c7-de2deb324828"
+          },
+          {
+            "result": {
+              "duration": 4032029200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enter password bagus124",
+            "match": {
+              "arguments": [
+                {
+                  "val": "bagus124",
+                  "offset": 20
+                }
+              ],
+              "location": "register.UserInputValidPassword(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "6fd19ddb-6a9d-4481-b625-93a324707f47"
+          },
+          {
+            "result": {
+              "duration": 4140849800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click on Login button and navigate to dasb page",
+            "match": {
+              "location": "register.userClickRegisterButton()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "f4423880-5ae8-4c4e-ba2a-6671eccf0468"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@register"
+          },
+          {
+            "name": "@register"
+          },
+          {
+            "name": "@positive"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "5d9025b7-4bf5-4799-9690-6fdc6a32c9c7",
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 17535846900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User navigates to register page",
+            "match": {
+              "location": "register.userClickRegister()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "8fb40c18-bf02-40f2-bbd4-999da7df6980"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "5d9025b7-4bf5-4799-9690-6fdc6a32c9c7",
+        "line": 28,
+        "name": "Test Register with invalid user",
+        "description": "",
+        "id": "register;test-register-with-invalid-user;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3323785200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enter valid Bagus M fullname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bagus M",
+                  "offset": 17
+                }
+              ],
+              "location": "register.UserEnterValidFullname(String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "cd500a3c-6535-4484-b7ac-d9fe855dc5e0"
+          },
+          {
+            "result": {
+              "duration": 3122259000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User enter invalid email ()",
+            "match": {
+              "arguments": [
+                {
+                  "val": "()",
+                  "offset": 25
+                }
+              ],
+              "location": "register.UserNotEnterEmail(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "3a10c034-c91f-4969-9060-042c21a42741"
+          },
+          {
+            "result": {
+              "duration": 2660210100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User input password bagus17",
+            "match": {
+              "arguments": [
+                {
+                  "val": "bagus17",
+                  "offset": 20
+                }
+              ],
+              "location": "register.UserInputPassword(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "d4a35037-daf4-46d8-a785-09163ed93d3c"
+          },
+          {
+            "result": {
+              "duration": 3719815700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Click Login button and navigate to dasb page",
+            "match": {
+              "location": "register.ClickLoginButtonAndNavigate()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "0d423eab-778d-4920-adda-99aed374fdb4"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@register"
+          },
+          {
+            "name": "@register"
+          },
+          {
+            "name": "@negative"
+          }
+        ]
+      }
+    ],
+    "name": "Register",
+    "description": "  I want to register to the aplication",
+    "id": "register",
+    "keyword": "Feature",
+    "uri": "E:/SEMESTER 7/MBKM/MiniProyek/CICD/MiniProyekMobile/Include/features/Register/Register.feature",
+    "tags": [
+      {
+        "name": "@register",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

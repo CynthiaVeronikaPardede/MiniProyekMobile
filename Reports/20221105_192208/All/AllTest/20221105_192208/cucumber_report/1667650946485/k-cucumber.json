@@ -1,0 +1,240 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "1ff52119-f5f7-484b-89cb-c2f34f477fa4",
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 17519890600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click login link",
+            "match": {
+              "location": "login.UserNavigatesToLoginPage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "a1934f43-7448-4b12-a70d-ce5097225a5b"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "1ff52119-f5f7-484b-89cb-c2f34f477fa4",
+        "line": 18,
+        "name": "Test login with valid user",
+        "description": "",
+        "id": "login;test-login-with-valid-user;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1890980000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User input with valid frizzi12@gmail.com email",
+            "match": {
+              "arguments": [
+                {
+                  "val": "frizzi12@gmail.com",
+                  "offset": 22
+                }
+              ],
+              "location": "login.UserEnterEmail(String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "d315c9de-9a0b-414f-83f0-83e70209d589"
+          },
+          {
+            "result": {
+              "duration": 1637427100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User input with valid testing123 password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testing123",
+                  "offset": 22
+                }
+              ],
+              "location": "login.UserEnterPassword(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "73a5459f-65ec-4665-ac05-820b6ded3934"
+          },
+          {
+            "result": {
+              "duration": 1791917200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User click Login button",
+            "match": {
+              "location": "login.ClickOnLoginButton()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "287cc51f-c687-44b7-9213-1fdbcb78aea7"
+          },
+          {
+            "result": {
+              "duration": 2084436000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User is Navigate to home page",
+            "match": {
+              "location": "login.UserIsNavigateToHomePage()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "1214f38e-f8ee-4d32-ba02-6030536046da"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@positive"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "01e77b0f-e8f3-4c88-8b30-0cada887e0ba",
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 16049368500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click login link",
+            "match": {
+              "location": "login.UserNavigatesToLoginPage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "926835c5-2dc9-4f36-9a1b-6986bbbc7ea6"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "01e77b0f-e8f3-4c88-8b30-0cada887e0ba",
+        "line": 29,
+        "name": "Test login with invalid user",
+        "description": "",
+        "id": "login;test-login-with-invalid-user;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2410528700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User input with invalid manusia email",
+            "match": {
+              "arguments": [
+                {
+                  "val": "manusia",
+                  "offset": 24
+                }
+              ],
+              "location": "login.UserInputWithInvalid(String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "67c01b16-a454-4b1d-b121-13699ef04b99"
+          },
+          {
+            "result": {
+              "duration": 2088249800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User input with invalid 12345 password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12345",
+                  "offset": 24
+                }
+              ],
+              "location": "login.UserInputWithInvalidPassword(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "2d928af9-b193-42b5-9c85-0bda7cfdf2bc"
+          },
+          {
+            "result": {
+              "duration": 1122290200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User click Login buttom",
+            "match": {
+              "location": "login.UserClickLoginButtom()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "8faa9b29-895d-4c5a-8758-2e4744313f1e"
+          },
+          {
+            "result": {
+              "duration": 2806773800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User is Navigate to dasboard page",
+            "match": {
+              "location": "login.UserIsNavigateToDasboardPage()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "77f0e621-7310-4ae4-87e8-cc08fd9b8360"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@negative"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "  I want to login",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "E:/SEMESTER 7/MBKM/MiniProyek/CICD/MiniProyekMobile/Include/features/Login/Login.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
